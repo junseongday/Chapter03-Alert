@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5BCC77DD23CCBB5500FCC372 /* Chapter02-Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter02-Alert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BCC77DD23CCBB5500FCC372 /* Chapter03-Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter03-Alert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BCC77E023CCBB5500FCC372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BCC77E223CCBB5500FCC372 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5BCC77E423CCBB5500FCC372 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		5BCC77D423CCBB5500FCC372 = {
 			isa = PBXGroup;
 			children = (
-				5BCC77DF23CCBB5500FCC372 /* Chapter02-Alert */,
+				5BCC77DF23CCBB5500FCC372 /* Chapter03-Alert */,
 				5BCC77DE23CCBB5500FCC372 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		5BCC77DE23CCBB5500FCC372 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5BCC77DD23CCBB5500FCC372 /* Chapter02-Alert.app */,
+				5BCC77DD23CCBB5500FCC372 /* Chapter03-Alert.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5BCC77DF23CCBB5500FCC372 /* Chapter02-Alert */ = {
+		5BCC77DF23CCBB5500FCC372 /* Chapter03-Alert */ = {
 			isa = PBXGroup;
 			children = (
 				5BCC77E023CCBB5500FCC372 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				5BCC77EB23CCBB5600FCC372 /* LaunchScreen.storyboard */,
 				5BCC77EE23CCBB5600FCC372 /* Info.plist */,
 			);
-			path = "Chapter02-Alert";
+			path = "Chapter03-Alert";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5BCC77DC23CCBB5500FCC372 /* Chapter02-Alert */ = {
+		5BCC77DC23CCBB5500FCC372 /* Chapter03-Alert */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5BCC77F123CCBB5600FCC372 /* Build configuration list for PBXNativeTarget "Chapter02-Alert" */;
+			buildConfigurationList = 5BCC77F123CCBB5600FCC372 /* Build configuration list for PBXNativeTarget "Chapter03-Alert" */;
 			buildPhases = (
 				5BCC77D923CCBB5500FCC372 /* Sources */,
 				5BCC77DA23CCBB5500FCC372 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Chapter02-Alert";
+			name = "Chapter03-Alert";
 			productName = "Chapter02-Alert";
-			productReference = 5BCC77DD23CCBB5500FCC372 /* Chapter02-Alert.app */;
+			productReference = 5BCC77DD23CCBB5500FCC372 /* Chapter03-Alert.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5BCC77D823CCBB5500FCC372 /* Build configuration list for PBXProject "Chapter02-Alert" */;
+			buildConfigurationList = 5BCC77D823CCBB5500FCC372 /* Build configuration list for PBXProject "Chapter03-Alert" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5BCC77DC23CCBB5500FCC372 /* Chapter02-Alert */,
+				5BCC77DC23CCBB5500FCC372 /* Chapter03-Alert */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DAH3QXS8T7;
-				INFOPLIST_FILE = "Chapter02-Alert/Info.plist";
+				INFOPLIST_FILE = "Chapter03-Alert/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kakao.Chapter02-Alert";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kakao.Chapter03-Alert";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,12 +304,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DAH3QXS8T7;
-				INFOPLIST_FILE = "Chapter02-Alert/Info.plist";
+				INFOPLIST_FILE = "Chapter03-Alert/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kakao.Chapter02-Alert";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kakao.Chapter03-Alert";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5BCC77D823CCBB5500FCC372 /* Build configuration list for PBXProject "Chapter02-Alert" */ = {
+		5BCC77D823CCBB5500FCC372 /* Build configuration list for PBXProject "Chapter03-Alert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5BCC77EF23CCBB5600FCC372 /* Debug */,
@@ -328,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5BCC77F123CCBB5600FCC372 /* Build configuration list for PBXNativeTarget "Chapter02-Alert" */ = {
+		5BCC77F123CCBB5600FCC372 /* Build configuration list for PBXNativeTarget "Chapter03-Alert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5BCC77F223CCBB5600FCC372 /* Debug */,

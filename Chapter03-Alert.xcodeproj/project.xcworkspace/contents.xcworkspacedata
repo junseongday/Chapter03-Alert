@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Chapter02-Alert.xcodeproj">
+      location = "self:/Users/jsmac/SynologyDrive/practiceSwift/Chapter02-Alert/Chapter03-Alert.xcodeproj">
    </FileRef>
 </Workspace>
