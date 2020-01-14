@@ -13,6 +13,8 @@
 		5BCC77E823CCBB5500FCC372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCC77E623CCBB5500FCC372 /* Main.storyboard */; };
 		5BCC77EA23CCBB5600FCC372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BCC77E923CCBB5600FCC372 /* Assets.xcassets */; };
 		5BCC77ED23CCBB5600FCC372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCC77EB23CCBB5600FCC372 /* LaunchScreen.storyboard */; };
+		5BCC77F623CE0C8700FCC372 /* MapAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC77F523CE0C8700FCC372 /* MapAlertViewController.swift */; };
+		5BCC77F823CE152500FCC372 /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC77F723CE152500FCC372 /* MapKitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5BCC77E923CCBB5600FCC372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BCC77EC23CCBB5600FCC372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BCC77EE23CCBB5600FCC372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BCC77F523CE0C8700FCC372 /* MapAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAlertViewController.swift; sourceTree = "<group>"; };
+		5BCC77F723CE152500FCC372 /* MapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				5BCC77E023CCBB5500FCC372 /* AppDelegate.swift */,
 				5BCC77E223CCBB5500FCC372 /* SceneDelegate.swift */,
 				5BCC77E423CCBB5500FCC372 /* ViewController.swift */,
+				5BCC77F523CE0C8700FCC372 /* MapAlertViewController.swift */,
+				5BCC77F723CE152500FCC372 /* MapKitViewController.swift */,
 				5BCC77E623CCBB5500FCC372 /* Main.storyboard */,
 				5BCC77E923CCBB5600FCC372 /* Assets.xcassets */,
 				5BCC77EB23CCBB5600FCC372 /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BCC77F623CE0C8700FCC372 /* MapAlertViewController.swift in Sources */,
+				5BCC77F823CE152500FCC372 /* MapKitViewController.swift in Sources */,
 				5BCC77E523CCBB5500FCC372 /* ViewController.swift in Sources */,
 				5BCC77E123CCBB5500FCC372 /* AppDelegate.swift in Sources */,
 				5BCC77E323CCBB5500FCC372 /* SceneDelegate.swift in Sources */,

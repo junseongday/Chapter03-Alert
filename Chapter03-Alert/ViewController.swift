@@ -21,11 +21,16 @@ class ViewController: UIViewController {
     }
     
     @objc func defaultAlert(_ sender: Any) {
-        let alert = UIAlertController(title: "알림창", message: "기본 메시지가 들어가는 곳", preferredStyle: .alert)
+        let alert = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
         alert.addAction(cancelAction)
         alert.addAction(okAction)
+        
+        let v = UIViewController()
+        v.view.backgroundColor = UIColor.red
+        alert.setValue(v, forKey: "contentViewController")
+        
         self.present(alert, animated: false, completion: nil)
     }
 
