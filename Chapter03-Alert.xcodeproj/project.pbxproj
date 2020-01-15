@@ -15,6 +15,11 @@
 		5BCC77ED23CCBB5600FCC372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCC77EB23CCBB5600FCC372 /* LaunchScreen.storyboard */; };
 		5BCC77F623CE0C8700FCC372 /* MapAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC77F523CE0C8700FCC372 /* MapAlertViewController.swift */; };
 		5BCC77F823CE152500FCC372 /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC77F723CE152500FCC372 /* MapKitViewController.swift */; };
+		5BCC77FA23CF551000FCC372 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC77F923CF551000FCC372 /* ImageViewController.swift */; };
+		5BCC77FE23CF561200FCC372 /* rating5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCC77FC23CF561200FCC372 /* rating5@2x.png */; };
+		5BCC77FF23CF561200FCC372 /* note.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BCC77FD23CF561200FCC372 /* note.png */; };
+		5BCC780123CF5B2E00FCC372 /* ControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC780023CF5B2E00FCC372 /* ControlViewController.swift */; };
+		5BCC780323CF5FCF00FCC372 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC780223CF5FCF00FCC372 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		5BCC77EE23CCBB5600FCC372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BCC77F523CE0C8700FCC372 /* MapAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAlertViewController.swift; sourceTree = "<group>"; };
 		5BCC77F723CE152500FCC372 /* MapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		5BCC77F923CF551000FCC372 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		5BCC77FC23CF561200FCC372 /* rating5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rating5@2x.png"; sourceTree = "<group>"; };
+		5BCC77FD23CF561200FCC372 /* note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note.png; sourceTree = "<group>"; };
+		5BCC780023CF5B2E00FCC372 /* ControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlViewController.swift; sourceTree = "<group>"; };
+		5BCC780223CF5FCF00FCC372 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +54,7 @@
 		5BCC77D423CCBB5500FCC372 = {
 			isa = PBXGroup;
 			children = (
+				5BCC77FB23CF55C000FCC372 /* Resources */,
 				5BCC77DF23CCBB5500FCC372 /* Chapter03-Alert */,
 				5BCC77DE23CCBB5500FCC372 /* Products */,
 			);
@@ -64,6 +75,9 @@
 				5BCC77E223CCBB5500FCC372 /* SceneDelegate.swift */,
 				5BCC77E423CCBB5500FCC372 /* ViewController.swift */,
 				5BCC77F523CE0C8700FCC372 /* MapAlertViewController.swift */,
+				5BCC77F923CF551000FCC372 /* ImageViewController.swift */,
+				5BCC780223CF5FCF00FCC372 /* ListViewController.swift */,
+				5BCC780023CF5B2E00FCC372 /* ControlViewController.swift */,
 				5BCC77F723CE152500FCC372 /* MapKitViewController.swift */,
 				5BCC77E623CCBB5500FCC372 /* Main.storyboard */,
 				5BCC77E923CCBB5600FCC372 /* Assets.xcassets */,
@@ -71,6 +85,15 @@
 				5BCC77EE23CCBB5600FCC372 /* Info.plist */,
 			);
 			path = "Chapter03-Alert";
+			sourceTree = "<group>";
+		};
+		5BCC77FB23CF55C000FCC372 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5BCC77FD23CF561200FCC372 /* note.png */,
+				5BCC77FC23CF561200FCC372 /* rating5@2x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +155,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BCC77ED23CCBB5600FCC372 /* LaunchScreen.storyboard in Resources */,
+				5BCC77FF23CF561200FCC372 /* note.png in Resources */,
+				5BCC77FE23CF561200FCC372 /* rating5@2x.png in Resources */,
 				5BCC77EA23CCBB5600FCC372 /* Assets.xcassets in Resources */,
 				5BCC77E823CCBB5500FCC372 /* Main.storyboard in Resources */,
 			);
@@ -148,7 +173,10 @@
 				5BCC77F823CE152500FCC372 /* MapKitViewController.swift in Sources */,
 				5BCC77E523CCBB5500FCC372 /* ViewController.swift in Sources */,
 				5BCC77E123CCBB5500FCC372 /* AppDelegate.swift in Sources */,
+				5BCC77FA23CF551000FCC372 /* ImageViewController.swift in Sources */,
 				5BCC77E323CCBB5500FCC372 /* SceneDelegate.swift in Sources */,
+				5BCC780323CF5FCF00FCC372 /* ListViewController.swift in Sources */,
+				5BCC780123CF5B2E00FCC372 /* ControlViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
